@@ -1,2 +1,1 @@
-# www-templates
-www-templates
+# 静态网页示例
