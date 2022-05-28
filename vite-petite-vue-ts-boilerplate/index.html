@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>application</title>
+    </head>
+    <body>
+        <div id="root">
+            <div v-scope>
+                <p>{{ count }}</p>
+                <p>{{ plusOne }}</p>
+                <button class="btn btn-primary" @click="increment">increment</button>
+            </div>
+        </div>
+        <script type="module" src="/src/main.ts"></script>
+    </body>
+</html>
