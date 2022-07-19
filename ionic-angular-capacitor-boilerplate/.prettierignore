@@ -1,1 +1,7 @@
-packages/*/dist
+.angular
+.vscode
+.idea
+/android
+/ios
+/node_modules
+/www
