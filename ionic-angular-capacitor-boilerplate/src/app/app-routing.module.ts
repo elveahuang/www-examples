@@ -18,6 +18,14 @@ const routes: Routes = [
         path: 'demo-index',
         loadChildren: () => import('@/app/demo/pages/index/index.module').then((m) => m.IndexPageModule),
     },
+    {
+        path: 'demo-swiper',
+        loadChildren: () => import('@/app/demo/pages/swiper/swiper.module').then((m) => m.SwiperPageModule),
+    },
+    {
+        path: 'demo-swiper',
+        loadChildren: () => import('@/app/demo/pages/swiper/swiper.module').then((m) => m.SwiperPageModule),
+    },
 ];
 
 @NgModule({

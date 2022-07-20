@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { IndexPage } from './index.page';
+import { SwiperPage } from './swiper.page';
 
 @NgModule({
     imports: [
         RouterModule.forChild([
             {
                 path: '',
-                component: IndexPage,
+                component: SwiperPage,
             },
         ]),
     ],
     exports: [RouterModule],
 })
-export class IndexPageRoutingModule {}
+export class SwiperPageRoutingModule {}
